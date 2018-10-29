@@ -1,3 +1,6 @@
+Teoría y ejemplo sacado de 
+https://www-m9.ma.tum.de/graph-algorithms/spp-bellman-ford/index_en.html
+
 ```python
 #Bellman Ford
 import math
