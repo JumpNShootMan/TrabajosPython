@@ -18,7 +18,7 @@ def bellmanford(G, origen):
       for v,w in G[u]: # el doble for permite recorrer todos los arcos de G
         f = vecwidth[u]+w
         #w=peso, u=nodo origen v=nodo destino #se sacan los elementos de cada vertice
-        if vecwidth[v] > f: 
+        if vecwidth[v] > f:  #compara el nodo anterior con el nuevo
           vecwidth[v]=f
           vecpadre[v]=u
   for u in range(n):
